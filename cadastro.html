@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Formulário de cadastro para novos usuários">
+  <link rel="icon" href="Imagem_Logo_Animação.png" type="image/png">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  
+<header>
+  <img src="Imagem_Logo_Animação.png" alt="Logo" class="logo-animada" />
+  <h1>Receita do Dia: Bolo de Cenoura</h1>
+  <p>Fofinho, saboroso e com cobertura irresistível!</p>
+</header>
+
+  
+
+<nav>
+  <ul class="menu">
+    <div class="menu-esquerda">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="index.html">Receitas</a></li>
+    </div>
+    <div class="menu-direita">
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="#">Entrar</a></li>
+    </div>
+  </ul>
+</nav>
+
+  <main class="cadastro-content">
+    <section>
+      <h2>Cadastro de Usuário</h2>
+      <form>
+        <label>Nome: <input type="text" name="nome" required></label><br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Senha: <input type="password" name="senha" required></label><br>
+        <label>Gênero:
+          <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+          <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+        </label><br>
+        <label>Interesse:
+          <select name="interesse">
+            <option value="doces">Doces</option>
+            <option value="salgados">Salgados</option>
+            <option value="vegano">Vegano</option>
+          </select>
+        </label><br>
+        <label>Comentários: <br><textarea name="comentarios"></textarea></label><br>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+  
+<footer>
+  Contato: email_falso@gmail.com
+</footer>
+
+</body>
+</html>
